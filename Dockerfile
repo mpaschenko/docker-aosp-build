@@ -25,7 +25,7 @@ RUN apt-get install -y git gnupg flex bison gperf build-essential \
             libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
             libgl1-mesa-dev g++-multilib gcc-multilib tofrodos \
             python-markdown libxml2-utils xsltproc zlib1g-dev:i386 \
-            libswitch-perl qemu-utils virtualbox
+            libswitch-perl qemu-utils
 
 RUN apt-get install -y software-properties-common python-software-properties
 
