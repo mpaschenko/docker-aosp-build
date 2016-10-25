@@ -23,7 +23,7 @@ RUN apt-get -qqy upgrade
 RUN apt-get install -y git gnupg flex bison gperf build-essential \
             zip curl libc6-dev libncurses5-dev:i386 x11proto-core-dev \
             libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-glx:i386 \
-            libgl1-mesa-dev g++-multilib gcc-multilib mingw32 tofrodos \
+            libgl1-mesa-dev g++-multilib gcc-multilib tofrodos \
             python-markdown libxml2-utils xsltproc zlib1g-dev:i386 \
             libswitch-perl qemu-utils virtualbox
 
