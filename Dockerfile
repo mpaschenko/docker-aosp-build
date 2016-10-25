@@ -1,5 +1,5 @@
 # We start with our base OS, Ubuntu 14.04
-FROM ubuntu:14.04
+FROM ubuntu:16.01
 
 # This Dockerfile is HEAVILY based on David Keppler "dave@kepps.net" version
 MAINTAINER Mike Wallace "mike.wallace@risesoftware.com"
